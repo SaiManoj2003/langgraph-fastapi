@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.python-version
+
+# Env
+.env
+venv/
+.env.*
+
+#db
+faiss_index_langgraph/
+faiss_index_semantic_kernel/
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.log
